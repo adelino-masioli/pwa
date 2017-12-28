@@ -87,7 +87,16 @@
     margin-top: 90px;
     font-weight: 300;
 }
-
+.mdl-dialog__title{
+    text-align: center;
+    font-size: 16px;
+}
 .mdl-progress.mdl-progress--indeterminate>.bar1, .mdl-progress.mdl-progress__indeterminate>.bar1, .mdl-progress.mdl-progress--indeterminate>.bar3, .mdl-progress.mdl-progress__indeterminate>.bar3{
     background-color: #064706!important;
+}
+.continue{
+    background-color: #064706!important;
+}
+#result a{
+    color: #064706!important;
 }

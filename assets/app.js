@@ -59,14 +59,14 @@ window.addEventListener('DOMContentLoaded', function () {
 
             // capture current snapshot
             snapshotContext.drawImage(video, snapshotSquare.x, snapshotSquare.y, snapshotSquare.size, snapshotSquare.size, 0, 0, snapshotSquare.size, snapshotSquare.size);
-            //const imageData = snapshotContext.getImageData(0, 0, snapshotSquare.size, snapshotSquare.size);
+            const imageData = snapshotContext.getImageData(0, 0, snapshotSquare.size, snapshotSquare.size);
 
             // scan for QRCode
             qrcodeWorker.postMessage({
                 cmd: 'process',
                 width: snapshotSquare.size,
                 height: snapshotSquare.size,
-               // imageData: imageData
+                imageData: imageData
             });
         }, wasSuccess ? 2000 : 120);
     }
@@ -87,7 +87,7 @@ window.addEventListener('DOMContentLoaded', function () {
                 resultContainer.appendChild(linkToResult);
 
                 resultSearchGo.href = url;
-                resultSearchGo.innerText = "Go";
+                resultSearchGo.innerText = "Abrir";
             } catch (e) {
                 resultContainer.innerText = resultData;
 
