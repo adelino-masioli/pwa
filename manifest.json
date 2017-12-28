@@ -1,6 +1,8 @@
 {
   "lang": "en",
+  "author": "Junior Ferreira",
   "name": "Cupom Verde",
+  "short_name": "CV",
   "icons": [{
     "src": "asssets/images/icons/128x128.png",
     "sizes": "128x128",
@@ -26,7 +28,7 @@
     "sizes": "512x512",
     "type": "image/png"
   }],
-  "start_url": "./",
+  "start_url": "index.html",
   "theme_color": "#3f51b5",
   "background_color": "#3f51b5",
   "display": "standalone"
