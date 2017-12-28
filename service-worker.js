@@ -1,7 +1,7 @@
 let cacheName = 'cupom-verde-v.1.0.0';
-
-let precacheConfig = [
-  "assets/app.js",
+let filesToCache  = [
+  './',
+  'assets/app.js',
   'assets/images/avatar.png',
   'assets/images/brand.png',
   'assets/images/vertical-dot.png',
@@ -49,7 +49,7 @@ let precacheConfig = [
   'assets/dist/js/jquery.rippler.min.js',
   'assets/script.js',
   'assets/style.css',
-  'assets/rippler.min.css',
+  'assets/dist/css/rippler.min.css',
   'assets/colors.css',
   'assets/camera.css',
   'index.html',
