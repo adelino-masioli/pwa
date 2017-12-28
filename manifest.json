@@ -7,23 +7,23 @@
     "type": "image/png"
   }, {
     "src": "asssets/images/icons/144x144.png",
-    "sizes": "128x128",
+    "sizes": "144x144",
     "type": "image/png"
   }, {
     "src": "asssets/images/icons/152x152.png",
-    "sizes": "128x128",
+    "sizes": "152x152",
     "type": "image/png"
   }, {
     "src": "asssets/images/icons/192x192.png",
-    "sizes": "128x128",
+    "sizes": "192x192",
     "type": "image/png"
   }, {
     "src": "asssets/images/icons/256x256.png",
-    "sizes": "128x128",
+    "sizes": "256x256",
     "type": "image/png"
   }, {
     "src": "asssets/images/icons/512x512.png",
-    "sizes": "128x128",
+    "sizes": "512x512",
     "type": "image/png"
   }],
   "start_url": "./",
