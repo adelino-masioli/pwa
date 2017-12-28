@@ -2,27 +2,27 @@
   "lang": "en",
   "name": "Cupom Verde",
   "icons": [{
-    "src": "img/icons/128x128.png",
+    "src": "asssets/images/icons/128x128.png",
     "sizes": "128x128",
     "type": "image/png"
   }, {
-    "src": "img/icons/144x144.png",
+    "src": "asssets/images/icons/144x144.png",
     "sizes": "128x128",
     "type": "image/png"
   }, {
-    "src": "img/icons/152x152.png",
+    "src": "asssets/images/icons/152x152.png",
     "sizes": "128x128",
     "type": "image/png"
   }, {
-    "src": "img/icons/192x192.png",
+    "src": "asssets/images/icons/192x192.png",
     "sizes": "128x128",
     "type": "image/png"
   }, {
-    "src": "img/icons/256x256.png",
+    "src": "asssets/images/icons/256x256.png",
     "sizes": "128x128",
     "type": "image/png"
   }, {
-    "src": "img/icons/512x512.png",
+    "src": "asssets/images/icons/512x512.png",
     "sizes": "128x128",
     "type": "image/png"
   }],

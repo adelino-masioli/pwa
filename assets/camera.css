@@ -69,8 +69,7 @@
 }
 
 #flipCamera {
-    display: none;
-
+    opacity: 0;
     top: 5vmin;
     right: 5vmin;
 }
