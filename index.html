@@ -39,13 +39,18 @@
     <link rel="stylesheet" href="assets/lib/material-design-lite/material.min.css">
     <link rel="stylesheet" href="assets/camera.css">
 
-
-    <script type="text/javascript">
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('service-worker.js');
-        }
-    </script>
-
+    <script>
+            if('serviceWorker' in navigator){
+                navigator.serviceWorker
+                    .register('./service-worker.js')
+                    .then(function(reg){
+                        console.log('It´s OK!');
+                    })
+                    .catch(function(error){
+                        console.log('Error!', error);
+                    })
+            }
+        </script>    
     <script src="assets/jquery-3.2.1.min.js"></script>
     <script src="assets/dist/js/jquery.rippler.min.js"></script>
     <script src="assets/script.js"></script>
