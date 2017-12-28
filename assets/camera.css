@@ -65,11 +65,9 @@
 #flipCamera, #aboutButton {
     position: absolute;
     background-color: #eee;
-    display: none;
 }
 
 #flipCamera {
-    opacity: 0;
     top: 5vmin;
     right: 5vmin;
 }
